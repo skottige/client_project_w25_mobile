@@ -1,0 +1,444 @@
+/* All Pages */
+  
+* {
+    font-family: 'Montserrat', 'Nunito Sans', 'Merriweather', 'Arial';
+}
+
+.skip {
+    position: fixed;
+    top: -40px;
+    height: 30px;
+    background-color: white;
+    color: #00274C;
+    align-content: center;
+    z-index: 1001;
+}
+
+.skip:focus {
+    top: 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #00274C;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10px;
+    z-index: 1000;
+}
+  
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 46px;
+}
+
+.nav > ul {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.nav a {
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav a:hover {
+    color: #FFCB05;
+}
+
+main {
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #00274C;
+}
+
+.hero img{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #00274C;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 1.125rem;
+    color: #00274C;
+    margin-top: 10px;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #00274C;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: black;
+    margin-top: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #00274C;
+    padding: 10px;
+    color: white;
+}
+
+.footer-logo {
+    width: 60px;
+}
+
+footer p {
+    color: white;
+    font-size: 1rem;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+}
+
+br {
+    margin-top: 15px;
+}
+
+/* Home Page */
+
+.navigator {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.home-img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.social-wellbeing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+}
+
+.physical-health {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+}
+
+.mental-health {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+}
+
+.life-outside-classroom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.life-outside-classroom p:last-child {
+    grid-column: span 2;
+}
+
+.colored {
+    margin-top: 20px;
+    background-color: #FFCB05;
+    padding: 10px;
+}
+
+.colored h2 {
+    margin-top: 0px;
+}
+
+/* Tutoring Page */
+
+.tutoring {
+    background-color: #00274C;
+    color: white;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.tutoring h3, h4 {
+    color: #FFCB05;
+    margin-top: 20px;
+}
+
+.tutoring  a {
+    color: white;
+}
+
+.tutoring img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.tutoring ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.tutoring li {
+    margin-top: 2px;
+}
+
+.math {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.additional {
+    margin-top: 30px;
+}
+
+.support {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.support p {
+    margin-top: 10px;
+}
+
+.support img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.support ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    list-style: disc;
+}
+
+.learn-more {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.learn-more-button {
+    margin-top: 20px;
+    background-color: #FFCB05;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.learn-more-button:hover {
+    background-color: #00274C;
+    color: white;
+}
+
+/* First Gen */
+
+.fg-img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.events {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #00274C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.events h3 {
+    color: #FFCB05;
+}
+
+.events p {
+    color: white;
+    margin-top: 10px;
+}
+
+.events img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.register {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.register-button {
+    margin-top: 20px;
+    background-color: #FFCB05;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.register-button:hover {
+    background-color: #989C97;
+    color: black;
+}
+
+
+.gateway {
+    margin-left: 30px;
+    list-style: disc;
+}
+
+.info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 10px;
+    list-style: none;
+}
+
+.info p:first-child {
+    grid-column: span 2;
+}
+
+/* Maize and Blue Page */
+
+.services {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #00274C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.services h3 {
+    color: #FFCB05;
+    padding: 10px;
+}
+
+.services ul {
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    list-style: disc;
+}
+
+.mb-img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.timings {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.appointment {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.appointment-button {
+    margin-top: 10px;
+    background-color: #FFCB05;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.appointment-button:hover {
+    background-color: #00274C;
+    color: white;
+}
+
+.help {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.help li:last-child {
+    margin-top: 10px;
+    grid-column: span 2;
+}
